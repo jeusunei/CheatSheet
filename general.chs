@@ -1,3 +1,6 @@
+Change the prompt:
+- PS1="\[\e[1;37m\][\[\e[1;32m\]\W\[\e[1;37m\]] \[\e[1;34m\]$\[\e[0m\] "
+
 Handling APT:
 - sudo apt-get install programname : installs a program
 - sudo apt-get update : updates all programs
@@ -8,3 +11,6 @@ Programs to be installed:
 - tmux : split windowns and create detachables sessions
 - vim : powerfull terminal editor
 - git-all : file versioning system
+
+Configurations:
+- vim : ~/.vimrc

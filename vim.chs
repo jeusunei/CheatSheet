@@ -1,5 +1,6 @@
-Read only mode:
-- view
+General information
+- view : read only mode for vim
+- .vimrc : configuration of vim, located on the home directory
 
 Normal mode:
 - esc: get back from every mode to normal mode
