@@ -1,3 +1,6 @@
+RasperryPi configuration:
+- sudo raspi-config : enter configuration menu
+
 Change the prompt:
 - PS1="\[\e[1;37m\][\[\e[1;32m\]\W\[\e[1;37m\]] \[\e[1;34m\]$\[\e[0m\] "
 
@@ -15,3 +18,4 @@ Programs to be installed:
 
 Configurations:
 - vim : ~/.vimrc
+- tmux : ~/.tmux.conf
