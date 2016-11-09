@@ -11,6 +11,7 @@ Programs to be installed:
 - tmux : split windowns and create detachables sessions
 - vim : powerfull terminal editor
 - git-all : file versioning system
+- htop : system monitoring
 
 Configurations:
 - vim : ~/.vimrc
