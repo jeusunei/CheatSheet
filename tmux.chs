@@ -21,12 +21,15 @@ Windows
 - ctrl-b , : rename a window
 - ctrl-b w : show list of opened windows
 - ctrl-b 0 to 9 : select specific window
+- ctrl-b n : next window
+- ctrl-b p : previous window
 - :swap-window -s 2 -t 1 : swap two windows
 - ctrl-b & : close current window
 
 Panes
 - ctrl-b % : split window vertically
 - ctrl-b " : split window horizontally
+- ctrl-b q : show pane number
 - ctrl-b h : switch to pane on the left
 - ctrl-b l : switch to pane on the right
 - ctrl-b j : switch to pane below
