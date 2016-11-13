@@ -1,3 +1,6 @@
+# Reload configuration
+bind r source-file ~/.tmux.conf
+
 # Unbind pane selection and resize commands
 unbind C-Up
 unbind C-Down

@@ -29,8 +29,8 @@ set foldmethod=indent                   " fold based on indent level
 " Programming settings
 filetype on                             " detect filetype
 syntax on                               " enable syntax processing
-au BufNewFile,BufRead *.chs syntax off  " disable syntax processing for chs files
 colorscheme delek
+au BufNewFile,BufRead *.chs,*.txt syntax clear  
 
 " Specific for python
 au BufNewFile,BufRead *.py set autoindent
