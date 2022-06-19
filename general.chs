@@ -56,6 +56,7 @@ General Linux commands:
 
 Change the prompt:
 - export PS1="\[\e[1;37m\][\[\e[1;32m\]\W\[\e[1;37m\]] \[\e[1;34m\]$\[\e[0m\] "
+- PS1="%B%F{7}[%f%F{green}%1~%f%F{7}] %f%F{cyan}%#%f%b "
 
 Programs to be installed:
 - tmux : split windowns and create detachables sessions
@@ -65,6 +66,7 @@ Programs to be installed:
 
 Configurations:
 - general user script : ~/.profile
+- general zsh config : ~/.zshrc
 - general global start script : /etc/profile
 - vim : ~/.vimrc
 - tmux : ~/.tmux.conf
