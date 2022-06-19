@@ -1,3 +1,19 @@
+Handling APT:
+- sudo apt-get install programname : installs a program
+- sudo apt-get update : updates all programs
+- sudo apt-get upgrade : upgrades system
+- sudo apt-get dist-upgrade : upgrades distribution
+- sudo apt-cache search word : search for a specific program
+
+MacPorts:
+- sudo port install <<portname>>
+- sudo port -d selfupdate : update ports
+- port search <<word>> : search for ports
+- sudo port clean <<portname>> : if install fails, clean up port
+
+ArchLinux:
+- sudo pacman -Sc : remove unused downloaded packages
+
 RasperryPi:
 - startx : start Raspian GUI
 - sudo raspi-config : enter configuration menu
@@ -40,13 +56,6 @@ General Linux commands:
 
 Change the prompt:
 - export PS1="\[\e[1;37m\][\[\e[1;32m\]\W\[\e[1;37m\]] \[\e[1;34m\]$\[\e[0m\] "
-
-Handling APT:
-- sudo apt-get install programname : installs a program
-- sudo apt-get update : updates all programs
-- sudo apt-get upgrade : upgrades system
-- sudo apt-get dist-upgrade : upgrades distribution
-- sudo apt-cache search word : search for a specific program
 
 Programs to be installed:
 - tmux : split windowns and create detachables sessions
